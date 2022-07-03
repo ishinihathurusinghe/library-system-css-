@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Koulen&family=Oswald&display=swap');
+.container {
+    margin-top: 50px;
+    height: 100vh;
+}
+
+.home {
+    background-image: url("../images/4787535.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reg {
+    background-image: url("../images/4287393.png");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container h1 {
+    font-family: 'Akshar', sans-serif;
+    font-size: 400%;
+    font-weight: bolder;
+    color: white;
+}
+
+.container .lib {
+    margin-top: 25px;
+}
+
+.box-users {
+    background: transparent;
+    margin-top: 50px;
+    background: transparent;
+    width: 450px;
+    height: 100%;
+    padding: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.box-reg {
+    background: transparent;
+    margin-top: 50px;
+    background: transparent;
+    width: 650px;
+    height: 100%;
+    padding: 50px;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.box-users form {
+    margin-top: 30px;
+}
+
+.box-reg form {
+    margin-top: 30px;
+}
+
+.box-users form p {
+    font-family: 'Koulen', cursive;
+    color: white;
+}
+
+.box-reg form p {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 150%;
+}
+
+.box-users h2 {
+    color: white;
+}
+
+.box-reg h2 {
+    color: white;
+}
+
+.box-users form .input-login {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.712);
+    outline: none;
+    resize: none;
+    font-family: 'Akshar', sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.box-reg form .input-login {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.712);
+    outline: none;
+    resize: none;
+    font-family: 'Akshar', sans-serif;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
+.box-users form .login-btn {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #44bbf1 -120%, #3a74f1 120%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
+}
+
+.box-reg form .login-btn {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #44bbf1 -120%, #3a74f1 120%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
+}
+
+.box-reg form .clr-btn {
+    width: 100%;
+    height: 45px;
+    background: linear-gradient(to right, #44bbf1 -120%, #3a74f1 120%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    height: 50px;
+}
+
+.box-users form .login-btn:hover {
+    background: linear-gradient(to right, #3a74f1 -120%, #44bbf1 120%);
+}
+
+.box-reg form .login-btn:hover {
+    background: linear-gradient(to right, #3a74f1 -120%, #44bbf1 120%);
+}
+
+.box-reg form .clr-btn:hover {
+    background: linear-gradient(to right, #3a74f1 -120%, #44bbf1 120%);
+}
+
+.admin-page {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+
+.admin-page .grid {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 1rem;
+    grid-template-areas: "a a b b" "a a c d";
+}
+
+.item1 {
+    grid-area: a;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.item2 {
+    grid-area: b;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.item3 {
+    grid-area: c;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.item4 {
+    grid-area: d;
+    border: none;
+    border-radius: 15px;
+    background-color: #dbdbdbc9;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.item1 .content {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.all_librarian {
+    margin: 15px 15px 0px 15px;
+}
+
+.all_user {
+    margin: 15px 15px 0px 15px;
+}
+
+.all_admin {
+    margin: 15px 15px 0px 15px;
+}
